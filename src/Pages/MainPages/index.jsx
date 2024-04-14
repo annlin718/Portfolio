@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import { RooterContext } from "../index";
 import About from "./components/about";
+import Files from "./components/Files";
+import Contact from "./components/Contact";
+import "./components/about.scss";
+import "./components/about_m.scss";
 
 function Details() {
   const { BtnEnterRef, setNowRooter } = useContext(RooterContext);
@@ -58,17 +62,9 @@ function Child() {
     case "Itroduction":
       return <About />;
     case "Portfile":
-      return (
-        <div>
-          <h3>ID: {id}</h3>
-        </div>
-      );
+      return <Files />;
     case "Contact":
-      return (
-        <div>
-          <h3>ID: {id}</h3>
-        </div>
-      );
+      return <Contact />;
     default:
       break;
   }

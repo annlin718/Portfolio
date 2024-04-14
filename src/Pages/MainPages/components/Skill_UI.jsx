@@ -1,6 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 
-const Skill_UI = () => {
+const Skill_UI = (props) => {
+  let intFrameWidth = props.intFrameWidth;
+
   let SkillType = [
     [["前端"], ["開發應用"]],
     [["後端/DB"], ["開發應用"]],
@@ -30,7 +32,9 @@ const Skill_UI = () => {
         return (
           <div key={uuidv4()} className="SkillBlock">
             <div className={"SkillTitle SkillTitle" + index}>
-              {Type[0]} <br /> {Type[1]}
+              {Type[0]}
+              {intFrameWidth <= 768 ? "" : <br />}
+              {Type[1]}
             </div>
             <div className="SkillList">
               {SkillList[index].map(function (list) {

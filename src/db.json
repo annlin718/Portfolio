@@ -1,0 +1,468 @@
+{
+  "Files": {
+    "InterWeb": [
+      {
+        "id": 0,
+        "img": "F0.png",
+        "title": "英語練習平台Ⅰ - GEO",
+        "URL": "https://geo.giraffe.com.tw/NEWVER/Login.html",
+        "Special": "大型英語練習平台，含大量趣味的互動遊戲",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #GSAP"
+      },
+      {
+        "id": 5,
+        "img": "F4.png",
+        "title": "英語練習平台II - GEPT EXPRESS",
+        "URL": "https://geo.giraffe.com.tw/ChannelM1/WRYG/login_NEW.html",
+        "Special": "大型英語練習平台，多樣式練習與成績紀錄",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 8,
+        "img": "F16.png",
+        "title": "新生入學測驗平台",
+        "URL": "https://geo.giraffe.com.tw/NEWVER/NewStudentTest/index.html",
+        "Special": "根據程度給予適應測驗，結束後顯示成績與評語",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 8,
+        "img": "F5.png",
+        "title": "線上課程平台",
+        "URL": "http://eclass.giraffe.com.tw/",
+        "Special": "大型英語練習平台，多樣式練習與成績紀錄",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 10,
+        "img": "F1.png",
+        "title": "互動式抽獎程式 - 翻牌",
+        "URL": "https://annlin718.github.io/Labar/index.html",
+        "Special": "洗牌動畫、互動式翻牌、Canvas 書寫簽名",
+        "Skill": "#HTML #CSS #JavaScript #jQuery"
+      },
+      {
+        "id": 20,
+        "img": "F2.png",
+        "title": "互動式抽獎程式 - 拉霸",
+        "URL": "https://annlin718.github.io/Labar/LaBar.html",
+        "Special": "拉霸動畫、互動式抽獎、客製化抽獎名單",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 30,
+        "img": "F3.png",
+        "title": "互動式抽獎程式 - 相片抽取(閃燈)",
+        "URL": "https://www.giraffe.com.tw/NewYear2021/char_LIGHT.html",
+        "Special": "搭配用戶上傳進行互動抽獎，可客製化抽獎名單",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 35,
+        "img": "F17.png",
+        "title": "互動式情境導覽 - 華碩 Zenbo(手機版)",
+        "URL": "https://geo.giraffe.com.tw/ChannelM1/ZenboJr/QRCODE.HTML",
+        "Special": "目前僅支援行動端瀏覽，請用手機掃描QR CODE瀏覽",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 36,
+        "img": "F14.png",
+        "title": "互動式抽獎程式 - 刮刮樂",
+        "URL": "http://www.giraffe.com.tw/DemoTeaching2019/Award_DEMO.htm?TEST=Y",
+        "Special": "可即時與用戶互動，立即知道中獎結果。",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #RWD #Canvas #Ajax"
+      },
+      {
+        "id": 37,
+        "img": "F15.png",
+        "title": "互動式抽獎程式 - 幸運轉盤(測試版)",
+        "URL": "https://www.giraffe.com.tw/DemoTeaching2021/CheckIn.html?TEST=Y",
+        "Special": "測試版無需輸入姓名及電話，直接登入即可抽獎",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #RWD #Ajax"
+      },
+      {
+        "id": 50,
+        "img": "F7.png",
+        "title": "互動式抽獎程式 - 相片抽取(跑馬燈)",
+        "URL": "https://www.giraffe.com.tw/2020GA/UploadPhoto/lottery.html",
+        "Special": "搭配上傳頁面，進行活動展演型現場互動",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 60,
+        "img": "F8.png",
+        "title": "互動式抽獎程式 - 上傳頁",
+        "URL": "https://www.giraffe.com.tw/2020GA/UploadPhoto/UploadPhoto.html",
+        "Special": "手機上傳頁面，與現場活動搭配",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 70,
+        "img": "F9.png",
+        "title": "QR Code報到系統 - 報到端(行動版)",
+        "URL": "https://geo.giraffe.com.tw/ChannelM1/master/2019GA.html?SEQ=001",
+        "Special": "QR CODE報到系統大幅縮短以往人工報到的作業時間",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 80,
+        "img": "F10.png",
+        "title": "QR Code報到系統 - 掃描端(行動版)",
+        "URL": "https://geo.giraffe.com.tw/ChannelM1/master/QRcode_DEMO.html?GMCID=AZ01542",
+        "Special": "QR CODE報到系統大幅縮短以往人工報到的作業時間",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 90,
+        "img": "F12.png",
+        "title": "現場互動遊戲 - 賓果遊戲(用戶端)",
+        "URL": "https://www.giraffe.com.tw/2019GA/Bingo/iframBingo.html",
+        "Special": "嘉賓可隨機選號玩賓果遊戲，並一鍵確認是否中獎",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #RWD"
+      },
+      {
+        "id": 100,
+        "img": "F11.png",
+        "title": "現場互動遊戲 - 賓果遊戲(公佈頁)",
+        "URL": "https://www.giraffe.com.tw/2019GA/Bingo/BingoNum2.html",
+        "Special": "活動主可利用現場大螢幕即時公佈Bingo號碼",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 120,
+        "img": "F13.png",
+        "title": "電子賀卡 - 聖誕祝福",
+        "URL": "http://www.giraffe.com.tw/2019christmascard/index.html",
+        "Special": "動畫卡片，快送上你的聖誕祝福吧!",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #Vue #Animate"
+      },
+      {
+        "id": 110,
+        "img": "F6.png",
+        "title": "互動遊戲 - 大家來找碴",
+        "URL": "http://giraffe.com.tw/NewYear2020/FindError.html",
+        "Special": "計時闖關，即時判斷對錯",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Animate"
+      }
+    ],
+    "RWD": [
+      {
+        "id": 120,
+        "img": "F18.png",
+        "title": "異業合作-100%小狼人",
+        "URL": "https://www.giraffe.com.tw/GiraffeXSkyFilms/100wolf_VoteMain.html",
+        "Special": "生動的頁面排版，含照片上傳與投票功能!",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 130,
+        "img": "F19.png",
+        "title": "異業合作-家樂福",
+        "URL": "https://www.giraffe.com.tw/Carrefour2020/index.html",
+        "Special": "RWD 響應式活動頁面",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #SVG"
+      },
+      {
+        "id": 140,
+        "img": "F20.png",
+        "title": "線上大會考報名網頁",
+        "URL": "https://geo.giraffe.com.tw/ChannelM1/WRYG/EXAM2021/index.html",
+        "Special": "RWD 響應式頁面，含線上報名與查榜功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 145,
+        "img": "F28.png",
+        "title": "產品宣傳頁-雲課堂",
+        "URL": "https://www.giraffe.com.tw/e-class_activity/index.html",
+        "Special": "RWD 響應式活動頁面",
+        "Skill": "#HTML #CSS #JavaScript #jQuery"
+      },
+      {
+        "id": 150,
+        "img": "F21.png",
+        "title": "線上投稿活動",
+        "URL": "https://www.giraffe.com.tw/Competitions2021/Main.html",
+        "Special": "RWD 響應式活動頁面，含線上投稿功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 150,
+        "img": "F29.png",
+        "title": "線上心願認領愛心活動",
+        "URL": "https://www.giraffe.com.tw/Dreams/active.html",
+        "Special": "RWD 響應式活動頁面，含線上認領心願功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 120,
+        "img": "F31.png",
+        "title": "活動宣傳頁-全國班主任大會",
+        "URL": "https://www.giraffe.com.tw/2021GA/index.html",
+        "Special": "RWD 響應式活動頁面，含會員登入與直播觀看",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 150,
+        "img": "F30.png",
+        "title": "招生活動宣傳頁-達文西創客教室",
+        "URL": "https://www.giraffe.com.tw/WinnterActivity_2021/index.html",
+        "Special": "RWD 響應式活動頁面，含會員註冊與直播觀看功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 160,
+        "img": "F24.png",
+        "title": "招生活動宣傳頁-2021年",
+        "URL": "https://www.giraffe.com.tw/DemoTeaching2021/demoCTeaching.htm",
+        "Special": "RWD 響應式活動頁面，含線上意願表單填寫功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 170,
+        "img": "F25.png",
+        "title": "招生活動宣傳頁-2021年第二波",
+        "URL": "https://www.giraffe.com.tw/register_events_2021/index.html",
+        "Special": "RWD 響應式活動頁面，含線上意願表單填寫功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 180,
+        "img": "F23.png",
+        "title": "招生活動宣傳頁-2020年",
+        "URL": "https://www.giraffe.com.tw/DemoTeaching2020/demoCTeaching.htm",
+        "Special": "RWD 響應式活動頁面，含線上意願表單填寫功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 185,
+        "img": "F27.png",
+        "title": "招生活動宣傳頁-2019年",
+        "URL": "http://www.giraffe.com.tw/DemoTeaching2019/demoCTeaching.htm?TEST=Y",
+        "Special": "RWD 響應式活動頁面，含線上意願表單填寫功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 190,
+        "img": "F22.png",
+        "title": "產品宣傳頁(含意願表單填寫)",
+        "URL": "https://www.giraffe.com.tw/kindergarten/index.html",
+        "Special": "RWD 響應式活動頁面，含線上意願表單填寫功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 200,
+        "img": "F26.png",
+        "title": "遠流商品販售頁面",
+        "URL": "http://best100club.com/TanTingPho/",
+        "Special": "RWD 響應式產品宣傳頁面，含試閱功能",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 0,
+        "img": "",
+        "title": "",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      }
+    ],
+    "Image": [
+      {
+        "id": 120,
+        "img": "P10.gif",
+        "title": "角色動畫",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P11.gif",
+        "title": "角色動畫",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P12.jpg",
+        "title": "貼圖設計",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P13.jpg",
+        "title": "貼圖設計",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P1.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P2.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P3.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P4.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P5.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P6.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P7.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P8.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P9.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P10.jpg",
+        "title": "親子教養小知識",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P14.jpg",
+        "title": "中秋節賀卡",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P15.png",
+        "title": "新年賀卡",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P16.png",
+        "title": "新年賀卡",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "P17.png",
+        "title": "新年賀卡",
+        "URL": "",
+        "Special": "",
+        "Skill": ""
+      }
+    ],
+    "Film": [
+      {
+        "id": 120,
+        "img": "V1.png",
+        "title": "端午節動畫影片",
+        "URL": "https://drive.google.com/file/d/1LEKM3eYqvjjNjYsUDot9wcvj8noTv8Yx/view?usp=sharing",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "V2.png",
+        "title": "跨年創意影片",
+        "URL": "https://drive.google.com/file/d/1NEHumKtiycZr2SJtWJRiS22EiegAW47o/view?usp=sharing",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "V3.png",
+        "title": "產品介紹影片",
+        "URL": "https://youtu.be/ab9JBg92QXU",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "V4.png",
+        "title": "聖誕節活動影片",
+        "URL": "https://youtu.be/rx28Mp9JGVk",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "V5.png",
+        "title": "英語歌曲動畫影片",
+        "URL": "https://drive.google.com/file/d/1mkfnKCsGTCJ_Z3z6iVGwXuFxcKlTOgra/view?usp=sharing",
+        "Special": "",
+        "Skill": ""
+      },
+      {
+        "id": 120,
+        "img": "V6.png",
+        "title": "英語歌曲動畫影片",
+        "URL": "https://drive.google.com/file/d/12fgqBrLgdD9e7RpzdIDTZ-tXK6LVzxJW/view?usp=sharing",
+        "Special": "",
+        "Skill": ""
+      }
+    ]
+  }
+}

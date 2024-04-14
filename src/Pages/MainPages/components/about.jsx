@@ -1,58 +1,59 @@
-import React, { useState, useEffect } from "react";
-import Introduction_UI from "./Introduction_UI";
-import Skill_UI from "./Skill_UI";
-import Thought_UI from "./Thought";
-import "./about.scss";
+import React, { useState } from "react";
+import IntroductionUI from "./Introduction_UI";
+import SkillUI from "./Skill_UI";
+import ThoughtUI from "./Thought";
+import Deco2 from "../../../Assets/dots.png";
 
+var intFrameWidth = window.innerWidth;
 const About = () => {
-  const [Tag, setTag] = useState("Introduction_UI");
+  const [Tag, setTag] = useState("IntroductionUI");
 
   function SelectPannel() {
     switch (Tag) {
-      case "Introduction_UI":
-        return <Introduction_UI />;
-      case "Skill_UI":
-        return <Skill_UI />;
+      case "IntroductionUI":
+        return <IntroductionUI />;
+      case "SkillUI":
+        return <SkillUI intFrameWidth={intFrameWidth} />;
       default:
-        return <Thought_UI />;
+        return <ThoughtUI intFrameWidth={intFrameWidth} />;
     }
   }
 
   return (
-    <div>
-      <div className="PicDeco PicDeco1"></div>
+    <div className="divMainContent">
+      {/* <img src={Deco2} className="PicDeco PicDecoBG1" alt="" />
+      <img src={Deco2} className="PicDeco PicDecoBG2" alt="" /> */}
+
       <div className="divTag">
         <label
           onClick={() => {
-            setTag("Introduction_UI");
+            setTag("IntroductionUI");
           }}
           className={
-            "labTag " + (Tag === "Introduction_UI" ? "labTag-selected" : "")
+            "labTag " + (Tag === "IntroductionUI" ? "labTag-selected" : "")
           }
         >
           自我介紹
         </label>
         <label
           onClick={() => {
-            setTag("Skill_UI");
+            setTag("SkillUI");
           }}
-          className={"labTag " + (Tag === "Skill_UI" ? "labTag-selected" : "")}
+          className={"labTag " + (Tag === "SkillUI" ? "labTag-selected" : "")}
         >
           技能表
         </label>
         <label
           onClick={() => {
-            setTag("Thought_UI");
+            setTag("ThoughtUI");
           }}
-          className={
-            "labTag " + (Tag === "Thought_UI" ? "labTag-selected" : "")
-          }
+          className={"labTag " + (Tag === "ThoughtUI" ? "labTag-selected" : "")}
         >
           工作理念
         </label>
-        <div className="MainTxt">
-          <SelectPannel />
-        </div>
+      </div>
+      <div className={"MainTxt " + (Tag === "SkillUI" ? "MainTxt-Top" : "")}>
+        <SelectPannel />
       </div>
     </div>
   );

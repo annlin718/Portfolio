@@ -1,6 +1,7 @@
 import ThoughtPicURL from "../../../Assets/Thought.png";
 
-const Thought_UI = () => {
+const Thought_UI = (props) => {
+  // let intFrameWidth = props.intFrameWidth;
   return (
     <div className="divThought">
       <img src={ThoughtPicURL} alt="" />

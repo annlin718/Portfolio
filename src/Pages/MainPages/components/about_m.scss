@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1600px) {
+    .MainTxt {
+        width: 70vw;
+        height: 70vh;
+        text-align: left;
+    }
+}
+
+//portrait-直向；landscape-橫向
+@media (max-width:1200px) and (orientation: portrait) {
+    .MainTxt {
+        height: 78vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .divSkill {
+        flex-wrap: wrap;
+
+        .SkillBlock {
+            width: 47%;
+            margin: 5px 0;
+
+            .SkillTitle {
+                font-size: 2rem;
+                font-weight: bolder;
+                text-align: center;
+                padding: 40px 0 18px 0;
+            }
+
+
+            .SkillList {
+                span {
+                    color: black;
+                    text-align: center;
+                    display: block;
+                    margin: 5px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+@import "mixin";
+
+@include media($tablet-ipad) {
+    .MainTxt {
+        width: 86vw;
+        min-height: auto;
+    }
+
+    .divSkill .SkillBlock {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .divSkill .SkillBlock:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .divSkill .SkillBlock .SkillTitle {
+        font-size: 2rem;
+        padding: 18px 0;
+        margin-bottom: 20px;
+    }
+
+    .divSkill .SkillBlock .SkillList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .divSkill .SkillBlock .SkillList span {
+        margin: 5px;
+    }
+
+    .divThought {
+        flex-wrap: wrap;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+@include media($phone) {
+    .divTag {
+        width: 92%;
+        margin-top: -6vh;
+
+        * {
+            width: 100%;
+        }
+
+        .labTag {
+            width: 33.3%;
+            margin: 0;
+        }
+
+
+        .MainTxt {
+            align-items: flex-start;
+            align-content: flex-start;
+            border-radius: 0 0 25px 25px;
+            height: 76vh;
+            padding: 20px;
+
+
+            .divIntroduction {
+                // border: 1px solid;
+            }
+        }
+    }
+
+}

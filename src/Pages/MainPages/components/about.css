@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+.divTag {
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  z-index: 90;
+}
+
+.divTag .labTag {
+  display: inline-block;
+  text-align: center;
+  font-weight: bolder;
+  background: #7DD3FF;
+  color: #333F50;
+  width: 8rem;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  border-radius: 20px 20px 0 0;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.divTag .labTag-selected {
+  padding-top: 12px;
+  background: #E0B258;
+}
+
+.divIntroductionBG {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.MainTxt {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: rgba(255, 255, 255, 0.205);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0 25px 25px;
+  margin: 0 auto;
+  width: 70vw;
+  text-align: right;
+  padding: 20px 50px;
+  line-height: 2rem;
+  min-height: 66vh;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  overflow-y: scroll;
+  z-index: 100;
+  position: relative;
+  color: #333;
+  font-weight: bold;
+}
+
+.MainTxt-Top {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  -ms-flex-line-pack: start !important;
+      align-content: flex-start !important;
+}
+
+.MainTxt::-webkit-scrollbar {
+  display: none;
+}
+
+.PicDeco {
+  position: absolute;
+  z-index: 0;
+}
+
+.PicDecoBG1 {
+  left: 10px;
+  top: -50px;
+  opacity: .3;
+  width: 300px;
+  -webkit-transform: rotate(0deg) translate(-50%, 0) rotate(-10deg);
+          transform: rotate(0deg) translate(-50%, 0) rotate(-10deg);
+}
+
+.PicDecoBG2 {
+  right: 10px;
+  bottom: 10px;
+  opacity: .2;
+  width: 400px !important;
+  -webkit-transform: translate(30%, 0) rotate(5deg);
+          transform: translate(30%, 0) rotate(5deg);
+}
+
+.PicDeco1 {
+  left: 0;
+  top: 15px;
+  font-size: 3.3rem;
+  font-family: 'Titillium Web', 'Noto Sans TC', sans-serif;
+  font-weight: 700;
+  opacity: 0.5;
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  line-height: 3.4rem;
+  -webkit-transform: rotate(90deg) translateY(-100%);
+          transform: rotate(90deg) translateY(-100%);
+  font-style: italic;
+}
+
+.divIntroduction,
+.divSkill {
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.divThought {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+}
+
+.divThought h2 {
+  text-align: left;
+  line-height: 3rem;
+}
+
+.divSkill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  height: 100%;
+}
+
+.divSkill .SkillBlock {
+  width: 23%;
+}
+
+.divSkill .SkillBlock .SkillTitle {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0 18px 0;
+}
+
+.divSkill .SkillBlock .SkillTitle.SkillTitle0 {
+  background: #52b0db;
+}
+
+.divSkill .SkillBlock .SkillTitle.SkillTitle1 {
+  background: #A9D18E;
+}
+
+.divSkill .SkillBlock .SkillTitle.SkillTitle2 {
+  background: #F4B183;
+}
+
+.divSkill .SkillBlock .SkillTitle.SkillTitle3 {
+  background: #eb8999;
+}
+
+.divSkill .SkillBlock .SkillList span {
+  text-align: center;
+  display: block;
+  margin: 5px;
+  font-weight: 500;
+}
+
+.divContact_MainItem {
+  color: #ffd876;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.divContact_item {
+  text-align: left;
+  margin: 15px;
+}
+
+.divContact_item .Contact_val {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.divContact_item a {
+  text-decoration: none;
+}
+
+.ImgBGPhoto {
+  position: absolute;
+  width: 700px;
+  max-width: 40vw;
+  opacity: .1;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: rotate(-30deg) translate(-25%, 20%);
+          transform: rotate(-30deg) translate(-25%, 20%);
+}
+
+.ImgBGPhoto2 {
+  position: absolute;
+  width: 500px;
+  opacity: .2;
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(40deg) translate(10%, -16%);
+          transform: rotate(40deg) translate(10%, -16%);
+}
+
+.divFileMain {
+  width: 90%;
+  height: 80vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.divFileMain .divFileType {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.divFileMain .divFileType label {
+  margin: 0 40px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.divFileMain .divFileType .labelSelect {
+  border-bottom: 1px solid #999;
+}
+
+.divFileMain .divFileLists::-webkit-scrollbar {
+  width: 8px;
+}
+
+.divFileMain .divFileLists::-webkit-scrollbar-track {
+  background-color: #161d27;
+  border-radius: 100px;
+}
+
+.divFileMain .divFileLists::-webkit-scrollbar-thumb {
+  background-color: #4b5e7a;
+  border-radius: 100px;
+}
+
+.divFileMain .divFileLists {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+.divFileMain .divFileLists .divFileList {
+  width: 28%;
+  text-align: left;
+  cursor: pointer;
+  margin: 0px 0 50px 0;
+}
+
+.divFileMain .divFileLists .divFileList img {
+  width: 100%;
+}
+
+.divFileMain .divFileLists .divFileList h3 {
+  padding: 0 5px;
+  margin: 5px 0;
+  color: #f7cf7f;
+  font-size: 1.4rem;
+}
+
+.divFileMain .divFileLists .divFileList .divFileSpecial {
+  padding: 0 5px;
+  font-size: 1rem;
+}
+
+.divFileMain .divFileLists .divFileList .divFileSkill {
+  padding: 0 5px;
+  font-size: 0.9rem;
+  margin-top: 16px;
+  color: #ffeecc;
+  opacity: .8;
+}
+
+.divFileMain .divFileLists .divFileList_NotLink {
+  cursor: auto;
+}
+/*# sourceMappingURL=about.css.map */

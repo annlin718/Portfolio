@@ -12,13 +12,12 @@ function useQuery() {
 
 function App() {
   let query = useQuery().replace(/\//g, "").replace(/#/g, "");
-  console.log(query);
 
   const BtnEnterRef = useRef();
   const [NowRooter, setNowRooter] = useState(query);
 
   useEffect(() => {
-    console.log(NowRooter);
+    // console.log(NowRooter);
   }, [NowRooter]);
 
   switch (NowRooter) {

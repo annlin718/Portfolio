@@ -1,0 +1,8 @@
+$tablet-ipad: '(max-width: 770px)' !default;
+$phone: '(max-width: 600px)' !default;
+
+@mixin media($query:$phone) {
+    @media #{$query} {
+        @content
+    }
+}
