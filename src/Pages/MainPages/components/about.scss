@@ -1,3 +1,5 @@
+$Mainborder:1px solid #111;
+
 .divTag {
     margin: 0 auto;
     width: 100%;
@@ -27,10 +29,25 @@
     background: rgba(255, 255, 255, 0.205);
     border-radius: 0 25px 25px;
     margin: 0 auto;
-    width: 100%;
+    width: 70vw;
     text-align: right;
     padding: 20px 50px;
     line-height: 2rem;
+    min-height: 66vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: scroll;
+    z-index: 100;
+    position: relative;
+}
+
+.MainTxt::-webkit-scrollbar {
+    display: none;
 }
 
 .PicDeco {
@@ -45,4 +62,73 @@
     width: 15vh;
     height: 45vh;
     transform: rotate(30deg);
+}
+
+.divIntroduction,
+.divSkill {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.divThought {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    color: #D29500;
+
+    h2 {
+        text-align: left;
+        line-height: 3rem;
+    }
+}
+
+.divSkill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+
+    .SkillBlock {
+        width: 23%;
+
+        .SkillTitle {
+            font-size: 2rem;
+            font-weight: bolder;
+            text-align: center;
+            padding: 40px 0 18px 0;
+        }
+
+        .SkillTitle.SkillTitle0 {
+            background: #8497B0;
+        }
+
+        .SkillTitle.SkillTitle1 {
+            background: #A9D18E;
+        }
+
+        .SkillTitle.SkillTitle2 {
+            background: #F4B183;
+        }
+
+        .SkillTitle.SkillTitle3 {
+            background: #E45E74;
+        }
+
+        .SkillList {
+            span {
+                color: black;
+                text-align: center;
+                display: block;
+                margin: 5px;
+                font-weight: 500;
+            }
+        }
+    }
 }
