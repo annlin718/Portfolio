@@ -14,7 +14,7 @@ import "./components/about.scss";
 import "./components/about_m.scss";
 
 function Details() {
-  const { BtnEnterRef, setNowRooter } = useContext(RooterContext);
+  const { BtnEnterRef } = useContext(RooterContext);
 
   return (
     <div className="App">
@@ -46,6 +46,7 @@ function Details() {
               </div>
             </Link>
           </div>
+
           <Switch>
             <Route path="/:id" children={<Child />} />
           </Switch>
@@ -66,7 +67,7 @@ function Child() {
     case "Contact":
       return <Contact />;
     default:
-      break;
+      return null;
   }
 }
 

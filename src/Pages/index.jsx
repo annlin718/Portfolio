@@ -13,12 +13,23 @@ function useQuery() {
 function App() {
   let query = useQuery().replace(/\//g, "").replace(/#/g, "");
 
+  useEffect(() => {
+    const handlePopstate = () => {
+      // 在這裏執行你需要的操作，例如重新加載數據等
+      setNowRooter(String(window.document.location.hash).replace(/\//g, "").replace(/#/g, ""));
+    };
+
+    // 添加 popstate 事件監聽器
+    window.addEventListener('popstate', handlePopstate);
+
+    // 在組件卸載時移除事件監聽器
+    return () => {
+      window.removeEventListener('popstate', handlePopstate);
+    };
+  }, []);
+
   const BtnEnterRef = useRef();
   const [NowRooter, setNowRooter] = useState(query);
-
-  useEffect(() => {
-    // console.log(NowRooter);
-  }, [NowRooter]);
 
   switch (NowRooter) {
     case "Itroduction":
@@ -31,11 +42,11 @@ function App() {
       );
     default:
       return (
-        <Router>
-          <RooterContext.Provider value={{ BtnEnterRef, setNowRooter }}>
+        <RooterContext.Provider value={{ BtnEnterRef, setNowRooter }}>
+          <Router>
             <Intro />
-          </RooterContext.Provider>
-        </Router>
+          </Router>
+        </RooterContext.Provider>
       );
   }
 }

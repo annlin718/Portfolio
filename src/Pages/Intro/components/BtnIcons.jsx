@@ -4,17 +4,14 @@ import {
   Switch,
   Route,
   Link,
-  useHistory,
 } from "react-router-dom";
 import { RooterContext } from "../../index";
 
 const Btnicons = () => {
   const { BtnEnterRef, setNowRooter } = useContext(RooterContext);
-  let history = useHistory();
 
   function setLink(sName) {
     setNowRooter(sName);
-    history.push("/" + sName);
   }
 
   return (

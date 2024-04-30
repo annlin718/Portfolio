@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import IntroductionUI from "./Introduction_UI";
 import SkillUI from "./Skill_UI";
 import ThoughtUI from "./Thought";
-import Deco2 from "../../../Assets/dots.png";
 
 var intFrameWidth = window.innerWidth;
 const About = () => {
@@ -21,9 +20,6 @@ const About = () => {
 
   return (
     <div className="divMainContent">
-      {/* <img src={Deco2} className="PicDeco PicDecoBG1" alt="" />
-      <img src={Deco2} className="PicDeco PicDecoBG2" alt="" /> */}
-
       <div className="divTag">
         <label
           onClick={() => {

@@ -53,5 +53,45 @@
     padding: 18px 0;
     margin-bottom: 20px;
   }
+  .divSkill .SkillBlock .SkillList {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .divSkill .SkillBlock .SkillList span {
+    margin: 5px;
+  }
+  .divThought {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .divThought h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .divTag {
+    width: 92%;
+    margin-top: -6vh;
+  }
+  .divTag * {
+    width: 100%;
+  }
+  .divTag .labTag {
+    width: 33.3%;
+    margin: 0;
+  }
+  .divTag .MainTxt {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    border-radius: 0 0 25px 25px;
+    height: 76vh;
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=about_m.css.map */
