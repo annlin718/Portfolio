@@ -12,8 +12,8 @@ const TypeArray = [
 
 const Contact = () => {
   const [Filedata, setFiledata] = useState([]);
-
   const [SelectType, setSelectType] = useState(TypeArray[0]);
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -46,19 +46,31 @@ const Contact = () => {
     window.open(sURL, "_blank");
   };
 
+  let WindowsWidth = window.innerWidth;
+
   return (
     <div className="divFileMain">
-      <div className="divFileType">
-        {TypeArray.map((TypeName) => (
-          <label
-            key={uuidv4()}
-            onClick={() => setSelectType(TypeName)}
-            className={SelectType === TypeName ? "labelSelect" : ""}
-          >
-            {TypeName}
-          </label>
-        ))}
-      </div>
+      {WindowsWidth <= 770 ?
+        <select className="ddlFileType" onChange={(e) => {
+          setSelectType(e.target.value)
+        }}>
+          {TypeArray.map((TypeName) => (
+            <option value={TypeName} key={uuidv4()}>{TypeName}</option>
+          ))}
+        </select> :
+        <div className="divFileType">
+          {TypeArray.map((TypeName) => (
+            <label
+              key={uuidv4()}
+              onClick={() => setSelectType(TypeName)}
+              className={SelectType === TypeName ? "labelSelect" : ""}
+            >
+              {TypeName}
+            </label>
+          ))}
+        </div>
+      }
+
       <div className="divFileLists">
         {Filedata.map((Type) => (
           <div
@@ -80,7 +92,7 @@ const Contact = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -16,14 +16,14 @@ const Skill_UI = (props) => {
       "CSS/SCSS",
       "JavaScript",
       "jQuery",
+      "React",
       "GSAP(動畫)",
       "Webpack",
       "Git / GitHub",
-      "React / Vue",
     ],
     ["Asp.Net (C#)", "SQL Server"],
-    ["Photoshop", "Illustrator ", "Flash/Animate", "Premiere", "Figma"],
-    ["PowerPoint", "Word", "Excel", "Outlook"],
+    ["Photoshop", "Illustrator ", "Flash / Animate", "Premiere", "Figma"],
+    ["PowerPoint", "Word", "Excel", "Outlook / Gmail", "ChatGPT", "GitMind"],
   ];
 
   return (

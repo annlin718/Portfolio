@@ -67,7 +67,8 @@
 
     .divSkill .SkillBlock .SkillList {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        min-height: 60px;
     }
 
     .divSkill .SkillBlock .SkillList span {
@@ -81,11 +82,38 @@
             text-align: center;
         }
     }
+
+    .divFileMain {
+        height: 86vh;
+        margin-top: -50px;
+
+        .ddlFileType {
+            border: 0;
+            padding: 5px 30px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 7px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1rem;
+            background: #f4f4f4;
+        }
+
+        .divFileLists {
+            .divFileList {
+                width: 45%;
+            }
+        }
+    }
 }
 
 @include media($phone) {
+    .divMainContent {
+        width: 86vw;
+    }
+
     .divTag {
-        width: 92%;
+        width: 100%;
         margin-top: -6vh;
 
         * {
@@ -93,23 +121,59 @@
         }
 
         .labTag {
-            width: 33.3%;
+            min-width: auto;
             margin: 0;
         }
+    }
 
+    .MainTxt {
+        align-items: flex-start;
+        align-content: flex-start;
+        border-radius: 0 0 25px 25px;
+        height: 76vh;
+        padding: 20px;
 
-        .MainTxt {
-            align-items: flex-start;
-            align-content: flex-start;
-            border-radius: 0 0 25px 25px;
-            height: 76vh;
-            padding: 20px;
+        >div {
+            height: fit-content !important;
+        }
 
+        .divIntroduction {
+            padding-right: 0px;
+        }
 
-            .divIntroduction {
-                // border: 1px solid;
+        .divSkill {
+            .SkillBlock .SkillList span {
+                color: #fff;
+            }
+        }
+
+        .divThought {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            height: 100% !important;
+            gap: 5%;
+
+            img {
+                width: 100%;
+            }
+
+            h2 {
+                text-align: left;
             }
         }
     }
 
+    .divFileMain {
+
+        .divFileLists {
+            gap: 30px 0;
+
+            .divFileList {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
 }
