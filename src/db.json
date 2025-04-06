@@ -3,6 +3,22 @@
     "InterWeb": [
       {
         "id": 0,
+        "img": "F38.png",
+        "title": "兒童Coding教學平台",
+        "URL": "https://et.ludodo.com.tw/Scratch/index.html",
+        "Special": "老師教導兒童編程的數位教學工具，內建多組互動教學工具與數位教材",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #GSAP"
+      },
+      {
+        "id": 0,
+        "img": "F37.png",
+        "title": "兒童Coding練習平台 - LCO",
+        "URL": "https://lco.ludodo.com.tw/index.html",
+        "Special": "課後練習平台，含大量趣味的互動遊戲",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #GSAP"
+      },
+      {
+        "id": 0,
         "img": "F0.png",
         "title": "英語練習平台Ⅰ - GEO",
         "URL": "https://geo.giraffe.com.tw/NEWVER/Login.html",
@@ -16,6 +32,22 @@
         "URL": "https://geo.giraffe.com.tw/ChannelM1/WRYG/login_NEW.html",
         "Special": "大型英語練習平台，多樣式練習與成績紀錄",
         "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax"
+      },
+      {
+        "id": 7,
+        "img": "F39.png",
+        "title": "邏輯思考互動遊戲 - 迷走方格",
+        "URL": "https://lco.ludodo.com.tw/AfterClass/MazeGrid/index.html",
+        "Special": "互動遊戲",
+        "Skill": "#HTML #CSS #JavaScript #jQuery #Ajax #Animation"
+      },
+      {
+        "id": 8,
+        "img": "F36.png",
+        "title": "互動遊戲蒐集表單 - 新生入學知識王",
+        "URL": "https://www.giraffe.com.tw/activity/2025Q1/knowledge-test/index.html",
+        "Special": "簡單的互動答題測驗，蒐集表單看評測結果",
+        "Skill": "#Vue3 #Vite #HTML #CSS #JavaScript #jQuery #Ajax"
       },
       {
         "id": 8,
@@ -147,6 +179,38 @@
       }
     ],
     "RWD": [
+      {
+        "id": 100,
+        "img": "F32.png",
+        "title": "活動網頁-2025年新生入學招生活動",
+        "URL": "https://www.giraffe.com.tw/demoTeaching2025/index.html?test=Y",
+        "Special": "RWD 響應式頁面，含線上報名表單功能!",
+        "Skill": "#Vue3 #Vite #HTML #CSS #JavaScript #Ajax"
+      },
+      {
+        "id": 109,
+        "img": "F35.png",
+        "title": "活動網頁-師資培訓宣傳頁",
+        "URL": "https://www.giraffe.com.tw/Activity/2024Q3/protraining_2024/index.html",
+        "Special": "RWD 響應式頁面，含線上報名影片與照片瀏覽功能!",
+        "Skill": "#Vue3 #Vite #HTML #CSS #JavaScript #Ajax"
+      },
+      {
+        "id": 110,
+        "img": "F33.png",
+        "title": "活動網頁-2024年新生入學招生活動",
+        "URL": "https://www.giraffe.com.tw/demoTeaching2024/index.html?test=Y",
+        "Special": "RWD 響應式頁面，含線上報名表單功能!",
+        "Skill": "#React #Vite #HTML #CSS #JavaScript #Ajax"
+      },
+      {
+        "id": 111,
+        "img": "F34.png",
+        "title": "活動網頁-2023年新生入學招生活動",
+        "URL": "https://www.giraffe.com.tw/demoTeaching2023/index.html?test=Y",
+        "Special": "RWD 響應式頁面，含線上報名、活動照片上傳功能!",
+        "Skill": "#React #Vite #HTML #CSS #JavaScript #Ajax"
+      },
       {
         "id": 120,
         "img": "F18.png",

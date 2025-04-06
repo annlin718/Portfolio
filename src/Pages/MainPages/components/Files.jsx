@@ -11,9 +11,13 @@ const TypeArray = [
 ];
 
 const Contact = () => {
+  let WindowsWidth = window.innerWidth;
+  let rowItemCnt = (WindowsWidth >= 1024) ? 3 : (WindowsWidth >= 768) ? 2 : 1;
+
+  console.log(rowItemCnt);
+
   const [Filedata, setFiledata] = useState([]);
   const [SelectType, setSelectType] = useState(TypeArray[0]);
-
 
   useEffect(() => {
     const fetchData = async () => {
@@ -46,7 +50,7 @@ const Contact = () => {
     window.open(sURL, "_blank");
   };
 
-  let WindowsWidth = window.innerWidth;
+
 
   return (
     <div className="divFileMain">
@@ -90,7 +94,16 @@ const Contact = () => {
             <div className="divFileSpecial">{Type.Special}</div>
             <div className="divFileSkill">{Type.Skill}</div>
           </div>
-        ))}
+        ))
+        }
+        {
+          Array.from({ length: (Filedata.length % rowItemCnt == 0 ? 0 : rowItemCnt - Filedata.length % rowItemCnt) }).map((_, x) => (
+            <div
+              key={"empty_" + x}
+              className={"divFileList empty"}
+            ></div>
+          ))
+        }
       </div>
     </div >
   );
